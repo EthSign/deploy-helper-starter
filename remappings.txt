@@ -1,0 +1,2 @@
+deploy-helper/=lib/deploy-helper/script/
+solady=lib/solady/src/
