@@ -9,14 +9,6 @@ contract DeployCounter is DeployHelper {
     function setUp() public override {
         // Set up with "counter" as the project subfolder
         _setUp("counter");
-
-        // Configure production settings
-        address productionOwner = 0x70997970C51812dc3A010C7d01b50e0d17dc79C8; // Example address
-        uint256[] memory mainnetChainIds = new uint256[](2);
-        mainnetChainIds[0] = 1; // Ethereum mainnet
-        mainnetChainIds[1] = 137; // Polygon mainnet
-
-        _configureProduction(productionOwner, mainnetChainIds);
     }
 
     function run() public {
