@@ -5,7 +5,7 @@ import {IVersionable} from "deploy-helper/interfaces/IVersionable.sol";
 import {Ownable} from "solady/auth/Ownable.sol";
 
 contract Counter is IVersionable, Ownable {
-    string public constant override version = "1.0.4-Counter";
+    string public constant override version = "1.0.5-Counter";
 
     uint256 public number;
 
